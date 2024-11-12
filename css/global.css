@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-image: linear-gradient(to right, #d6d6d6, #f7f7f7);
+}
+
+.row row-cols-1 row-cols-md-3 g-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem;
+}
+.card{
+    width: 20rem;
+    margin: 1rem;
+    border: none;
+
+}
+
+.card-img-top{
+    width: 10rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+.card-text{
+    font-size: 1rem;    
+    color: #616161;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
